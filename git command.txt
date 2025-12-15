@@ -1,0 +1,48 @@
+DELL@DESKTOP-CIVR0S0 MINGW64 ~
+$ cd c:\Users\DELL\OneDrive\Desktop\pfda~
+bash: cd: c:UsersDELLOneDriveDesktoppfda~: No such file or directory
+
+DELL@DESKTOP-CIVR0S0 MINGW64 ~
+$ cd c:
+
+DELL@DESKTOP-CIVR0S0 MINGW64 /c
+$ cd Users\DELL\OneDrive\Desktop\pfda~
+bash: cd: UsersDELLOneDriveDesktoppfda~: No such file or directory
+
+DELL@DESKTOP-CIVR0S0 MINGW64 /c
+$ cd Users
+
+DELL@DESKTOP-CIVR0S0 MINGW64 /c/Users
+$ cd Users\DELL\OneDrive\Desktop\pfda~
+bash: cd: UsersDELLOneDriveDesktoppfda~: No such file or directory
+
+DELL@DESKTOP-CIVR0S0 MINGW64 /c/Users
+$ cd Users\DELL
+bash: cd: UsersDELL: No such file or directory
+
+DELL@DESKTOP-CIVR0S0 MINGW64 /c/Users
+$ cd DELL
+
+DELL@DESKTOP-CIVR0S0 MINGW64 ~
+$ cd onedrive
+
+DELL@DESKTOP-CIVR0S0 MINGW64 ~/onedrive
+$ cd pfda
+bash: cd: pfda: No such file or directory
+
+DELL@DESKTOP-CIVR0S0 MINGW64 ~/onedrive
+$ cd desktop
+
+DELL@DESKTOP-CIVR0S0 MINGW64 ~/onedrive/desktop
+$ cd pfda
+
+DELL@DESKTOP-CIVR0S0 MINGW64 ~/onedrive/desktop/pfda (main)
+$ git --version
+git version 2.50.1.windows.1
+
+DELL@DESKTOP-CIVR0S0 MINGW64 ~/onedrive/desktop/pfda (main)
+$ git config --global user.name "saugat"
+
+DELL@DESKTOP-CIVR0S0 MINGW64 ~/onedrive/desktop/pfda (main)
+$ ^[[200~git config --global user.email "your_email@example.com"
+bash: $'\E[200~git': command 
